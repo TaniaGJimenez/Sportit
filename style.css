@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Be Vietnam Pro", sans-serif;
+  }
+  
+  button {
+    width: 134px;
+    height: 44px;
+    border: none;
+    border-radius: 50px;
+    background-color: #8b48bf;
+    color: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 20px 10px;
+    cursor: pointer;
+  }
+  
+  p {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  /* ! ESTILOS PARA EL HEADER */
+  header {
+    padding: 40px 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav a {
+    color: black;
+    margin: 0px 10px;
+  }
+  
+  #navHeader,
+  #contactButton1 {
+    display: none;
+  }
+  
+  /* ! AQUI COMIENZA LIVESECTION */
+  #liveSection {
+    text-align: right;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -2px;
+  }
+  
+  #liveSection p {
+    padding: 30px 0px 25px 25px;
+    font-weight: bold;
+  }
+  
+  #paddleMan {
+    width: 100vw;
+    padding: 40px 60px;
+  }
+  
+  /*! AQUI COMIENZA LA SECCIÓN DE LA PREGUNTA */
+  #diferentQuestion,
+  #getToKnow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3cddf3;
+    color: #ffffff;
+    padding: 50px 40px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 30px 0px 50px 0px;
+    text-align: left;
+  }
+  
+  /*! AQUI COMIENZA LA SECCIÓN DE LOS TRES PUNTOS */
+  #threePoints {
+    padding: 30px 0px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .number {
+    padding: 10px 25px;
+    border-radius: 30px;
+    background-color: #8b48bf;
+    color: #ffffff;
+  }
+  
+  h4 {
+    border-radius: 50px 0px 0px 50px;
+    background: rgba(139, 72, 191, 0.3);
+    padding: 10px 0px;
+  }
+  
+  .cardContent {
+    padding: 20px 30px 20px 10px;
+    color: #b3b2b7;
+  }
+  
+  /*! AQUI COMIENZA LA SECCIÓN BEST OF THE MONTH */
+  #monthsBest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h3 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 60px;
+  }
+  
+  #monthsBest .container {
+    display: flex;
+    background: #fafafa;
+    margin: 0px 20px;
+  }
+  
+  .Playerscard {
+    display: none;
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+    overflow: visible;
+  }
+  
+  .Playerscard img {
+    overflow: hidden;
+    position: relative;
+    bottom: 30px;
+  }
+  
+  .Playerscard:nth-child(2) {
+    display: block;
+  }
+  
+  
